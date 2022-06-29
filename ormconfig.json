@@ -1,11 +1,11 @@
 {
   "username": "postgres",
-  "password": "docker",
+  "password": "postgrespw",
 
   "type": "postgres",
   "name": "default",
   "host": "localhost",
-  "port": 5432,
+  "port": 49153,
   "database": "queries_challenge",
   "entities": ["./src/modules/**/entities/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
